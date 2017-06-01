@@ -1,0 +1,33 @@
+.headline {
+    font-size: 1.275rem;
+    font-weight: 300;
+    @mixin atSmall {
+        font-size: 2.875rem;
+    };
+    &--centered {
+        text-align: center;
+    }
+    &--small {
+        font-size: 1.15rem;
+        @mixin atSmall {
+            font-size: 1.875rem;
+        }
+    }
+    &--narrow {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &--light {
+        font-weight: 100;
+    }
+    strong {
+        font-weight: 400;
+    }
+    &--b-margin-small {
+        margin-bottom: 0.5em;
+    }
+    &--b-margin-large {
+        margin-bottom: 1.6em;
+    }
+}

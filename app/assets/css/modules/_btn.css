@@ -1,0 +1,23 @@
+.btn {
+    text-decoration: none;
+    padding: 0.75rem 1.2rem;
+    display: inline-block;
+    &--white {
+        background-color:#FFF;
+        color: #000;
+    }
+    &--black {
+        background-color:#000;
+        color: #FFF;
+    }
+    &--grey {
+        background-color: #333;
+        color: #222;
+    }
+    &--large {
+        padding: 1.1rem 1.9rem;
+        @mixin atSmall {
+            font-size: 1.25rem;
+        }
+    }
+}

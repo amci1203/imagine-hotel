@@ -1,0 +1,50 @@
+.row {
+    &__1 {
+        float: left;
+        width: calc(1 * (100% / 12));
+    }
+    &__2 {
+        float: left;
+        width: calc(2 * (100% / 12));
+    }
+    &__3 {
+        float: left;
+        width: calc(3 * (100% / 12));
+    }
+    &__4 {
+        float: left;
+        width: calc(4 * (100% / 12));
+    }
+    &__5 {
+        float: left;
+        width: calc(5 * (100% / 12));
+    }
+    &__6 {
+        float: left;
+        width: calc(6 * (100% / 12));
+    }
+    &__7 {
+        float: left;
+        width: calc(7 * (100% / 12));
+    }
+    &__8 {
+        float: left;
+        width: calc(8 * (100% / 12));
+    }
+    &__9 {
+        float: left;
+        width: calc(9 * (100% / 12));
+    }
+    &__10 {
+        float: left;
+        width: calc(10 * (100% / 12));
+    }
+    &__11 {
+        float: left;
+        width: calc(11 * (100% / 12));
+    }
+    &__12 {
+        float: left;
+        width: calc(12 * (100% / 12));
+    }
+}

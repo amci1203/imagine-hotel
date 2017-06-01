@@ -1,0 +1,40 @@
+.navbar {
+    height: $navbar-height;
+    background-color: $navbar-bg;
+    color: $navbar-fg;
+    border-bottom: 1px solid #DDD;
+    &__nav-item-list {
+        height: $navbar-height;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        list-style-type: none;
+    }
+    &__nav-item {
+        display: table-cell;
+        text-align: center;
+        width: 1%;
+        height: $navbar-height;
+        float: none;
+        padding: 0 1.15rem;
+        a {
+            @mixin noDecor;
+            display: block;
+            height: $navbar-height;
+            padding-top: calc($navbar-height / 3);
+            width: 100%;
+            font-weight: 100;
+            font-size: 1.35rem;
+            &:hover {
+                height: calc($navbar-height + 1px);
+                border-bottom: 3px solid $navbar-fg;
+            }
+        }
+    }
+    &--sticky {
+        position: sticky;
+        padding: $navbar-height;
+        border-bottom-left-radius: $navbar-bottom-border-radius;
+        border-bottom-right-radius: $navbar-bottom-border-radius;
+    }
+}

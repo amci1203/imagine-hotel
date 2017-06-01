@@ -1,0 +1,19 @@
+.page-section {
+    padding: 4.5rem 0;
+    &--white {
+        background-color: #FFF;
+        color: #111;
+    }
+    &--black {
+        background-color: #000;
+        color: #FFF;
+    }
+    &--dark-gray {
+        background-color: #111;
+        color: #FFF;
+    }
+    &--gray {
+        background-color: #CCC;
+        color: #333;
+    } 
+}

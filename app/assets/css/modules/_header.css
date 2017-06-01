@@ -1,0 +1,16 @@
+#header {
+    text-align: center;
+    &__main-heading {
+        font-size: 1.15rem;
+        font-weight: 100;
+        font-stretch: expanded;
+        @mixin atSmall {
+            font-size: 1.5rem;
+        }
+        @mixin atMedium {
+            font-size: 2.15rem;
+        }
+    }
+    &__sub-heading {
+    }
+}
